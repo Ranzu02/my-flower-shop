@@ -185,18 +185,141 @@ nav {
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin: 100px 0px;
+    margin-top: 100px;
 }
 
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     justify-content: space-between;
+    padding: 100px 195px;
+    padding-left: 150px;
+    gap: 150px;
 }
 
-.hot-deal-title{
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 
 }
 
-.hot-deal-description{
-    
+.hot-deal-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.instagram-image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.subscribe {
+    background: url('../Flower\ Asset/Rectangle\ 9.png');
+    margin: 100px 240px;
+    text-align: center;
+}
+
+.email {
+    width: 700px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    padding-left: 20px;
+}
+
+.email-form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.btn2 {
+    width: 150px;
+    height: 60px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    margin-left: 10px;
+
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #111010;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.footer-container {
+    padding: 128px 648px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.flower {
+    color: #E55473;
+
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.off {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
 }
